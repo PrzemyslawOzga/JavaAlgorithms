@@ -1,21 +1,16 @@
+/*
+Check that the number n entered by the user is a prime number and print the correctly message.
+
+For example:
+Input: 7
+Output: 7 is a prime number
+*/
+
 package com.company.maths;
 
 import java.util.Scanner;
 
 public class PrimeNumbersCheck {
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter number: ");
-        int n = scanner.nextInt();
-
-        if (isPrime(n)) {
-            System.out.println(n + " is a prime numbers");
-        } else {
-            System.out.println(n + " is not a prime numbers");
-        }
-        scanner.close();
-    }
 
     public static boolean isPrime(int n) {
         if (n == 2) {
@@ -30,5 +25,17 @@ public class PrimeNumbersCheck {
             }
         }
         return true;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter number: ");
+        int n = scanner.nextInt();
+        if (isPrime(n)) {
+            System.out.println(n + " is a prime numbers");
+        } else {
+            System.out.println(n + " is not a prime numbers");
+        }
+        scanner.close();
     }
 }
