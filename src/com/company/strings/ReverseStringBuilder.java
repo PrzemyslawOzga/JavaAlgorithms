@@ -1,5 +1,5 @@
 /*
-Reverse the user-supplied String text using StringBuilder.
+Reverse String text using StringBuilder.
 
 Example:
 Input: Hello world!
