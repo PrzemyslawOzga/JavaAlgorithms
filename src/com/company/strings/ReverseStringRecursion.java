@@ -23,6 +23,5 @@ public class ReverseStringRecursion {
         ReverseStringRecursion reverseString = new ReverseStringRecursion();
         String stringToReverse = "Hello world!";
         System.out.println(reverseString.reverseString(stringToReverse));
-
     }
 }

@@ -26,6 +26,8 @@ public class ReverseStringChar {
         Scanner scanner = new Scanner(System.in);
         String stringToReverse = scanner.nextLine();
 
+        long startTime = System.nanoTime();
         reverseString(stringToReverse);
+        System.out.println("Time: " + (System.nanoTime() - startTime));
     }
 }
