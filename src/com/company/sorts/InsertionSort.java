@@ -1,5 +1,5 @@
 /*
-Complexity:
+Complexity: O(n^2)
 */
 
 package com.company.sorts;
