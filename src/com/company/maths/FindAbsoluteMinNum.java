@@ -3,17 +3,17 @@ package com.company.maths;
 import java.util.Arrays;
 import java.util.Random;
 
-public class FindAbsoluteMaxNum {
+public class FindAbsoluteMinNum {
 
-    public static int absMax(int[] arr) {
+    public static int absMin(int[] arr) {
         int n = arr.length;
-        int maxValue = arr[0];
+        int minValue = arr[0];
         for (int i = 1; i < n; ++i) {
-            if (Math.abs(arr[i]) > Math.abs(maxValue)) {
-                maxValue = arr[i];
+            if (Math.abs(arr[i]) < Math.abs(minValue)) {
+                minValue = arr[i];
             }
         }
-        return maxValue;
+        return minValue;
     }
 
     public static void main(String[] args) {
@@ -26,6 +26,6 @@ public class FindAbsoluteMaxNum {
         }
 
         System.out.println(arr);
-        System.out.println("absMax(" + Arrays.toString(arr) + ") = " + absMax(arr));
+        System.out.println("absMax(" + Arrays.toString(arr) + ") = " + absMin(arr));
     }
 }
