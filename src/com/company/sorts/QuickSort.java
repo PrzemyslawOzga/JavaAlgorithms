@@ -37,9 +37,10 @@ public class QuickSort {
     }
 
     static void printArr(int[] arr, int size)  {
-        for(int i = 0; i < size; i++)
+        for(int i = 0; i < size; i++) {
             System.out.print(arr[i] + " ");
-
+        }
+        System.out.println();
         System.out.println();
     }
 
@@ -52,6 +53,9 @@ public class QuickSort {
         for (int i = 0; i < n; i++) {
             arr[i] = radndGenerator.nextInt(100) + 1;
         }
+
+        System.out.println("Unsorted array: ");
+        printArr(arr, n);
 
         long startTime = System.nanoTime();
         quickSort(arr, 0, n - 1);
