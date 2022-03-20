@@ -70,8 +70,10 @@ public class HeapSort {
         System.out.println("Unsorted list: ");
         ans.printArr(arr);
 
+        long startTime = System.nanoTime();
         ans.heapSort(arr);
         System.out.println("Sorted list: ");
         ans.printArr(arr);
+        System.out.println("Time: " + (System.nanoTime() - startTime));
     }
 }
