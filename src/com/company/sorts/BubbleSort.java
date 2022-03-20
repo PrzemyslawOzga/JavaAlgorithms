@@ -1,3 +1,7 @@
+/*
+Complexity: O(n^2)
+*/
+
 package com.company.sorts;
 
 import java.util.Random;
