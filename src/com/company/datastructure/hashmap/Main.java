@@ -1,6 +1,5 @@
 package com.company.datastructure.hashmap;
 
-
 import java.util.Scanner;
 
 public class Main {
