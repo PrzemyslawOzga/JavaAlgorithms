@@ -12,9 +12,9 @@ public class MainLinearProbing {
 
         while (true) {
             System.out.println("Enter your Choice :");
-            System.out.println("1. Add Key");
-            System.out.println("2. Delete Key");
-            System.out.println("3. Print Table");
+            System.out.println("1. Add key");
+            System.out.println("2. Delete key");
+            System.out.println("3. Print table");
             System.out.println("4. Exit");
             System.out.println("5. Search and print key index");
             System.out.println("6. Check load factor");

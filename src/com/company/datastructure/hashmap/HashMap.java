@@ -1,7 +1,5 @@
 package com.company.datastructure.hashmap;
 
-import java.util.LinkedList;
-
 public class HashMap {
 
     /*
