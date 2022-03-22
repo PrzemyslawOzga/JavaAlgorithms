@@ -1,14 +1,13 @@
 package com.company.datastructure.hashmap.hashmap;
 
+/*
+HashMap stores elements in so-called buckets and the number of buckets is called capacity.
+When we put a value in the map, the key's hashCode() method is used to determine the
+bucket in which the value will be stored. To retrieve the value, HashMap calculates the
+bucket in the same way – using hashCode().
+*/
+
 public class HashMap {
-
-    /*
-    HashMap stores elements in so-called buckets and the number of buckets is called capacity.
-    When we put a value in the map, the key's hashCode() method is used to determine the
-    bucket in which the value will be stored. To retrieve the value, HashMap calculates the
-    bucket in the same way – using hashCode().
-    */
-
     private int hashSize;
     private LinkedList[] buckets;
 
@@ -20,6 +19,7 @@ public class HashMap {
         }
     }
 
+    // The hashing function takes a given key and finds an index based on its data
     public int hashing(int key) {
         int hash = key % hashSize;
         if (hash < 0) {
@@ -28,28 +28,31 @@ public class HashMap {
         return hash;
     }
 
+    // inserts the key into the hashmap by wrapping it as an Integer object
     public void insertHash (int key) {
         int hash = hashing(key);
         buckets[hash].insert(key);
     }
 
+    // deletes a key from the hash map and adds an available placeholder
     public void deleteHash(int key) {
         int hash = hashing(key);
 
         buckets[hash].delete(key);
     }
 
+    // display the hash table line by line
     public void displayHashtable() {
         for (int i = 0; i < hashSize; i++) {
-            System.out.printf("Bucket %d :", i);
+            System.out.printf("Bucket: ", i);
             System.out.println(buckets[i].display());
         }
     }
 
+    // Information about Linked list is in Readme.md
     public static class LinkedList {
 
         private Node first;
-
         public LinkedList() {
             first = null;
         }

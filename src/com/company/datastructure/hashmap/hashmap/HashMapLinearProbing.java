@@ -1,15 +1,17 @@
 package com.company.datastructure.hashmap.hashmap;
 
+/*
+This class is an implementation of a hash table using linear probing It uses a
+dynamic array to lengthen the size of the hash table when load factor > 0.7
+
+hashSize - size of the hash table
+buckets - array representing the table
+size - amount of elements in the hash table
+*/
+
 import java.util.*;
 
 public class HashMapLinearProbing {
-
-    /*
-    hashSize - size of the hash table
-    buckets - array representing the table
-    size - amount of elements in the hash table
-    */
-
     private int hashSize;
     private Integer[] buckets;
     private Integer AVAILABLE;
@@ -23,7 +25,7 @@ public class HashMapLinearProbing {
         this.size = 0;
     }
 
-    //
+    // The hashing function takes a given key and finds an index based on its data
     public int hashing(int key) {
         int hash = key % hashSize;
         if (hash < 0) {
@@ -32,6 +34,7 @@ public class HashMapLinearProbing {
         return hash;
     }
 
+    // inserts the key into the hashmap by wrapping it as an Integer object
     public void insertHash(int key) {
         Integer wrappedInt = key;
         int hash = hashing(key);
@@ -56,6 +59,7 @@ public class HashMapLinearProbing {
         }
     }
 
+    // deletes a key from the hash map and adds an available placeholder
     public void deleteHash(int key) {
         Integer wrappedInt = key;
         int hash = hashing(key);
@@ -81,6 +85,7 @@ public class HashMapLinearProbing {
         System.out.println("Key " + key + " not found");
     }
 
+    // display the hash table line by line
     public void displayHashtable() {
         for (int i = 0; i < hashSize; i++) {
             if (buckets[i] == null || buckets[i] == AVAILABLE) {
@@ -91,6 +96,7 @@ public class HashMapLinearProbing {
         }
     }
 
+    // finds the index of location based on an inputed key
     public int findHash(int key) {
         Integer wrappedInt = key;
         int hash = hashing(key);
@@ -125,6 +131,10 @@ public class HashMapLinearProbing {
         System.out.println("Table size is now: " + hashSize);
     }
 
+    /*
+    checkLoadFactor checks the load factor of the hash table if greater than 0.7
+    automatically lengthens table to prevent further collisions
+    */
     public void checkLoadFactor() {
         double factor = (double) size / hashSize;
         if (factor > .7) {
@@ -135,6 +145,7 @@ public class HashMapLinearProbing {
         }
     }
 
+    // isFull returns true if the hash map is full and false if not full
     public boolean isFull() {
         boolean response = true;
         for (int i = 0; i < hashSize; i++) {
@@ -146,6 +157,7 @@ public class HashMapLinearProbing {
         return response;
     }
 
+    // isEmpty returns true if the hash map is empty and false if not empty
     public boolean isEmpty() {
         boolean response = true;
         for (int i = 0; i < hashSize; i++) {

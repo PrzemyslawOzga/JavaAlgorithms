@@ -59,3 +59,25 @@ a class containing 4 fields:
         calculated before and after will be different.
 - value - any object or null
 - next - reference for the next node
+
+### **LinkedList** 
+
+Linked List is a part of the Collection framework present in java.util package. 
+This class is an implementation of the LinkedList data structure which is a linear 
+data structure where the elements are not stored in contiguous locations and every 
+element is a separate object with a data part and address part. The elements are 
+linked using pointers and addresses. Each element is known as a node. Due to the 
+dynamicity and ease of insertions and deletions, they are preferred over the arrays. 
+It also has a few disadvantages like the nodes cannot be accessed directly instead we 
+need to start from the head and follow through the link to reach a node we wish to access.
+
+### **How Does LinkedList work Internally?**
+
+Since a LinkedList acts as a dynamic array and we do not have to specify the size 
+while creating it, the size of the list automatically increases when we dynamically 
+add and remove items. And also, the elements are not stored in a continuous fashion. 
+Therefore, there is no need to increase the size. Internally, the LinkedList is 
+implemented using the doubly linked list data structure. The main difference between 
+a normal linked list and a doubly LinkedList is that a doubly linked list contains 
+an extra pointer, typically called the previous pointer, together with the next pointer 
+and data which are there in the singly linked list. 
