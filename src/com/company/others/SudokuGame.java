@@ -33,7 +33,6 @@ public class SudokuGame {
                 }
             }
         }
-
         return true;
     }
 
