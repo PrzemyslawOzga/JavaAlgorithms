@@ -1,4 +1,4 @@
-package com.company.datastructure.hashmap;
+package com.company.datastructure.hashmap.hashmap;
 
 public class HashMap {
 

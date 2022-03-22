@@ -1,20 +1,23 @@
-package com.company.datastructure.hashmap;
+package com.company.datastructure.hashmap.hashmap;
 
 import java.util.Scanner;
 
-public class Main {
-    public static void Main(String[] args) {
+public class MainLinearProbing {
+    public static void main(String[] args) {
+
         int choice, key;
 
-        HashMap h = new HashMap(7);
+        HashMapLinearProbing h = new HashMapLinearProbing(7);
         Scanner In = new Scanner(System.in);
 
         while (true) {
             System.out.println("Enter your Choice :");
-            System.out.println("1. Add Key");
-            System.out.println("2. Delete Key");
-            System.out.println("3. Print Table");
+            System.out.println("1. Add key");
+            System.out.println("2. Delete key");
+            System.out.println("3. Print table");
             System.out.println("4. Exit");
+            System.out.println("5. Search and print key index");
+            System.out.println("6. Check load factor");
 
             choice = In.nextInt();
 
@@ -39,6 +42,16 @@ public class Main {
                 case 4: {
                     In.close();
                     return;
+                }
+                case 5: {
+                    System.out.println("Enter the Key to find and print:  ");
+                    key = In.nextInt();
+                    System.out.println("Key: " + key + " is at index: " + h.findHash(key));
+                    break;
+                }
+                case 6: {
+                    h.checkLoadFactor();
+                    break;
                 }
             }
         }

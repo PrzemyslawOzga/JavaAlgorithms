@@ -1,4 +1,4 @@
-package com.company.datastructure.hashmap;
+package com.company.datastructure.hashmap.hashmap;
 
 import java.util.*;
 
