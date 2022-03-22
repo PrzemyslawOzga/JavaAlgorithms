@@ -6,6 +6,12 @@ class, which implements the Map.ENTRY interface and the key hashing mechanism us
 find the index of the array. Thanks to this solution, the storage and extraction of 
 objects (if we know the key) with the complexity O (1) is ensured.
 
+
+The size of the inner array is always a power of two (if we give e.g. the number 
+18 in the constructor, the inner array allocates memory to 32 elements because 
+it is the closest power of two greater than the given number 18), thanks to this 
+the HashMap is able to provide us with complexity at the level of O (1).
+
 ### **Advantages of HashMaps**
 
 - Fast value search (average O (1))
