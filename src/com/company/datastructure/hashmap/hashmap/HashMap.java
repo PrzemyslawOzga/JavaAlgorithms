@@ -49,7 +49,7 @@ public class HashMap {
         }
     }
 
-    // Information about Linked list is in Readme.md
+    // Information about Linked list is in README.md
     public static class LinkedList {
 
         private Node first;
