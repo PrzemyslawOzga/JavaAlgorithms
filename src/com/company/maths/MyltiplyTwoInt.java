@@ -4,7 +4,7 @@ import java.math.BigInteger;
 
 public class MyltiplyTwoInt {
     // #1
-    public static BigInteger myltiply2Integers(int a, int b) {
+    public static BigInteger multiply2Integers(int a, int b) {
         if (b < a) {
             int temp = a;
             b = a;
@@ -30,16 +30,16 @@ public class MyltiplyTwoInt {
     public static void main(String[] args) {
         // myltiply2Integers
         int a = 3, b = -5;
-        BigInteger num = myltiply2Integers(a, b);
+        BigInteger num = multiply2Integers(a, b);
         System.out.println(num);
 
         // sum
         int x = 5, y = -3;
         if (x < 0 && y < 0) {
-            int res = sum(x, y) * (-1);
+            int res = -sum(x, y);
             System.out.println(res);
         } else if (x > 0 && y < 0) {
-            int res = sum(x, y) * (-1);
+            int res = -sum(x, y);
             System.out.println(res);
         } else {
             int res = sum(x, y);
