@@ -2,12 +2,12 @@ package com.company.datastructure.hashmap.hashmap;
 
 import java.util.Scanner;
 
-public class MainLinearProbing {
+public class MainLinear {
     public static void main(String[] args) {
 
         int choice, key;
 
-        HashMapLinearProbing h = new HashMapLinearProbing(7);
+        HashMapLinear h = new HashMapLinear(7);
         Scanner In = new Scanner(System.in);
 
         while (true) {

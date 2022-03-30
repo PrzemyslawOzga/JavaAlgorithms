@@ -11,14 +11,14 @@ size - amount of elements in the hash table
 
 import java.util.*;
 
-public class HashMapLinearProbing {
+public class HashMapLinear {
     private int hashSize;
     private Integer[] buckets;
     private Integer AVAILABLE;
     private int size;
 
     // Constructor
-    public HashMapLinearProbing(int hashSize) {
+    public HashMapLinear(int hashSize) {
         this.buckets = new Integer[hashSize];
         this.hashSize = hashSize;
         this.AVAILABLE = Integer.MIN_VALUE;
