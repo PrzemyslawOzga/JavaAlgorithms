@@ -10,14 +10,17 @@ package com.company.strings;
 
 public class ReverseStringBuilder {
 
+    public static StringBuilder reverseStringBuilder (StringBuilder stringToReverse) {
+        StringBuilder reverseString = stringToReverse.reverse();
+        return reverseString;
+    }
+
     public static void main(String[] args) {
         StringBuilder sB = new StringBuilder("Java");
-        System.out.println("String: " + sB);
+        System.out.println("String to reverse: " + sB);
 
         long startTime = System.nanoTime();
-        StringBuilder reverseString = sB.reverse();
-
-        System.out.println("Reverse String: " + reverseString);
+        System.out.println("Reverse string: " + reverseStringBuilder(sB));;
         System.out.println("Time: " + (System.nanoTime() - startTime));
     }
 }
