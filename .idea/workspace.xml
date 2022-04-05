@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d4d7f496-5c9c-4237-8155-f150f5658698" name="Default Changelist" comment="AlphabeticalOrder algorithm." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26GINTaSAcHFqz9FayINktFTslK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="exceleditor.install" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RunManager" selected="Application.AlphabeticalOrder">
+    <configuration name="AlphabeticalOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.strings.AlphabeticalOrder" />
+      <module name="JavaAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImplementStrStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.strings.ImplementStrStr" />
+      <module name="JavaAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyltiplyTwoInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.maths.MyltiplyTwoInt" />
+      <module name="JavaAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.maths.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseStringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.strings.ReverseStringBuilder" />
+      <module name="JavaAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseStringRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.strings.ReverseStringRecursion" />
+      <module name="JavaAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AlphabeticalOrder" />
+        <item itemvalue="Application.ImplementStrStr" />
+        <item itemvalue="Application.ReverseStringRecursion" />
+        <item itemvalue="Application.ReverseStringBuilder" />
+        <item itemvalue="Application.MyltiplyTwoInt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4d7f496-5c9c-4237-8155-f150f5658698" name="Default Changelist" comment="" />
+      <created>1647043459145</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647043459145</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Some change in insertion sort algorithm.">
+      <created>1647795497790</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1647795497790</updated>
+    </task>
+    <task id="LOCAL-00021" summary="New sort algorithms - radix and selection sort.">
+      <created>1647795590675</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1647795590675</updated>
+    </task>
+    <task id="LOCAL-00022" summary="New sort algorithms - radix and selection sort.">
+      <created>1647796439385</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1647796439385</updated>
+    </task>
+    <task id="LOCAL-00023" summary="New sort algorithms - selection sort.">
+      <created>1647796871824</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1647796871824</updated>
+    </task>
+    <task id="LOCAL-00024" summary="New String algorithm - counting the occurrences of each String.">
+      <created>1647798477882</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1647798477882</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Selection sort algorithm.">
+      <created>1647798500637</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1647798500637</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Find absolute max algorithm.">
+      <created>1647816140579</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1647816140579</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Counting strings algorithm.">
+      <created>1647816163091</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1647816163091</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Find absolute min and max number algorithm.">
+      <created>1647816361887</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1647816361887</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Sudoku game.">
+      <created>1647818832626</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1647818832626</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Create new package with data structure algorithms.">
+      <created>1647893039492</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1647893039492</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Hashmap data structure.">
+      <created>1647895409716</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1647895409716</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Hashmap data structure.">
+      <created>1647895415996</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1647895415996</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Hashmap data structure.">
+      <created>1647927302661</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1647927302661</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Hashmap data structure.">
+      <created>1647927309248</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1647927309248</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Hashmap data structure.">
+      <created>1647927829970</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1647927829970</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Hashmap data structure.">
+      <created>1647927937010</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1647927937010</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Hashmap data structure.">
+      <created>1647928071268</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1647928071269</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Hashmap data structure.">
+      <created>1647929283148</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1647929283148</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Hashmap data structure.">
+      <created>1647929357453</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1647929357453</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Sudoku game.">
+      <created>1647929678263</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1647929678263</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Added README.md">
+      <created>1647975149887</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1647975149887</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Added README.md">
+      <created>1647975219200</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1647975219200</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Added README.md">
+      <created>1647975254748</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1647975254748</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Added README.md">
+      <created>1647975260070</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1647975260070</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Added README.md">
+      <created>1647975514408</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1647975514408</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Added README.md">
+      <created>1647975560302</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1647975560302</updated>
+    </task>
+    <task id="LOCAL-00047" summary="New sorted algorithm -&gt; merge sort.">
+      <created>1648251070803</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1648251070803</updated>
+    </task>
+    <task id="LOCAL-00048" summary="New sorted algorithm -&gt; merge sort.">
+      <created>1648251081465</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1648251081465</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Myltiply two inteegers.">
+      <created>1648473729490</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1648473729490</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Multiply two integers.">
+      <created>1648585784805</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1648585784805</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Update multiplyTwoInt, and add new algorith - twoSum using lists and hashMap (Complexity: O(n^2) and O(n)).">
+      <created>1648683300739</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1648683300739</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Update file name.">
+      <created>1648683382649</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1648683382649</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Update file name.">
+      <created>1648683444379</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1648683444379</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Math algorithm using lists and hashMap - TwoSum (letcode)">
+      <created>1648683520718</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1648683520718</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Math algorithm using lists - remove duplicates from sorted array. Complexity: O(n)">
+      <created>1648764234617</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1648764234617</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Math algorithm using lists - remove element from array. Complexity: O(n)">
+      <created>1648767992734</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1648767992735</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Dijkstra's algorithm using priorityQueue.">
+      <created>1649023881685</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1649023881685</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Dijkstra's algorithm using priorityQueue.">
+      <created>1649024370773</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1649024370773</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Implement strStr() - 28. algorithm from letCode">
+      <created>1649024433057</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1649024433057</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Implement strStr() - letCode algorithm.">
+      <created>1649026424344</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1649026424344</updated>
+    </task>
+    <task id="LOCAL-00061" summary=".">
+      <created>1649099356670</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1649099356670</updated>
+    </task>
+    <task id="LOCAL-00062" summary="New Java algorithm - palindrome numbers (letcode).">
+      <created>1649101075224</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1649101075224</updated>
+    </task>
+    <task id="LOCAL-00063" summary="New Java algorithm - roman to integer (letcode).">
+      <created>1649105825685</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1649105825685</updated>
+    </task>
+    <task id="LOCAL-00064" summary="New Java algorithm - Longest Common Prefix (letcode).">
+      <created>1649110238933</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1649110238933</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Interview algorithm - return sum of multiplication, without using the multiplication sign.">
+      <created>1649110539080</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1649110539080</updated>
+    </task>
+    <task id="LOCAL-00066" summary=".">
+      <created>1649196376180</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1649196376180</updated>
+    </task>
+    <task id="LOCAL-00067" summary=".">
+      <created>1649196813937</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1649196813938</updated>
+    </task>
+    <task id="LOCAL-00068" summary="AlphabeticalOrder algorithm.">
+      <created>1649197244959</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1649197244959</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Selection sort algorithm." />
+    <MESSAGE value="Find absolute max algorithm." />
+    <MESSAGE value="Counting strings algorithm." />
+    <MESSAGE value="Find absolute min and max number algorithm." />
+    <MESSAGE value="Create new package with data structure algorithms." />
+    <MESSAGE value="Hashmap data structure." />
+    <MESSAGE value="Sudoku game." />
+    <MESSAGE value="Added README.md" />
+    <MESSAGE value="New sorted algorithm -&gt; merge sort." />
+    <MESSAGE value="Myltiply two inteegers." />
+    <MESSAGE value="Multiply two integers." />
+    <MESSAGE value="Update multiplyTwoInt, and add new algorith - twoSum using lists and hashMap (Complexity: O(n^2) and O(n))." />
+    <MESSAGE value="Update file name." />
+    <MESSAGE value="Math algorithm using lists and hashMap - TwoSum (letcode)" />
+    <MESSAGE value="Math algorithm using lists - remove duplicates from sorted array. Complexity: O(n)" />
+    <MESSAGE value="Math algorithm using lists - remove element from array. Complexity: O(n)" />
+    <MESSAGE value="Dijkstra's algorithm using priorityQueue." />
+    <MESSAGE value="Implement strStr() - 28. algorithm from letCode" />
+    <MESSAGE value="Implement strStr() - letCode algorithm." />
+    <MESSAGE value="New Java algorithm - palindrome numbers (letcode)." />
+    <MESSAGE value="New Java algorithm - roman to integer (letcode)." />
+    <MESSAGE value="New Java algorithm - Longest Common Prefix (letcode)." />
+    <MESSAGE value="Interview algorithm - return sum of multiplication, without using the multiplication sign." />
+    <MESSAGE value="." />
+    <MESSAGE value="AlphabeticalOrder algorithm." />
+    <option name="LAST_COMMIT_MESSAGE" value="AlphabeticalOrder algorithm." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaAlgorithms$ReverseStringRecursion.ic" NAME="ReverseStringRecursion Coverage Results" MODIFIED="1649197073770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.strings.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaAlgorithms$ImplementStrStr.ic" NAME="ImplementStrStr Coverage Results" MODIFIED="1649197201464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.strings.*</FILTER>
+    </SUITE>
+  </component>
+</project>
