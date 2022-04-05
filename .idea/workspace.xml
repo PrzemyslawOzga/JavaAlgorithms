@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4d7f496-5c9c-4237-8155-f150f5658698" name="Default Changelist" comment="AlphabeticalOrder algorithm." />
+    <list default="true" id="d4d7f496-5c9c-4237-8155-f150f5658698" name="Default Changelist" comment="Add and define .gitignore to repository." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +17,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -176,13 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647043459145</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Some change in insertion sort algorithm.">
-      <created>1647795497790</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1647795497790</updated>
     </task>
     <task id="LOCAL-00021" summary="New sort algorithms - radix and selection sort.">
       <created>1647795590675</created>
@@ -520,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649197244959</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Add and define .gitignore to repository.">
+      <created>1649197562648</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1649197562648</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -535,7 +536,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Selection sort algorithm." />
     <MESSAGE value="Find absolute max algorithm." />
     <MESSAGE value="Counting strings algorithm." />
     <MESSAGE value="Find absolute min and max number algorithm." />
@@ -560,7 +560,8 @@
     <MESSAGE value="Interview algorithm - return sum of multiplication, without using the multiplication sign." />
     <MESSAGE value="." />
     <MESSAGE value="AlphabeticalOrder algorithm." />
-    <option name="LAST_COMMIT_MESSAGE" value="AlphabeticalOrder algorithm." />
+    <MESSAGE value="Add and define .gitignore to repository." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add and define .gitignore to repository." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaAlgorithms$ReverseStringRecursion.ic" NAME="ReverseStringRecursion Coverage Results" MODIFIED="1649197073770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
