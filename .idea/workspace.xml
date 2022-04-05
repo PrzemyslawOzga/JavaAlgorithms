@@ -16,6 +16,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -177,34 +182,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647043459145</updated>
-    </task>
-    <task id="LOCAL-00021" summary="New sort algorithms - radix and selection sort.">
-      <created>1647795590675</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1647795590675</updated>
-    </task>
-    <task id="LOCAL-00022" summary="New sort algorithms - radix and selection sort.">
-      <created>1647796439385</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1647796439385</updated>
-    </task>
-    <task id="LOCAL-00023" summary="New sort algorithms - selection sort.">
-      <created>1647796871824</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1647796871824</updated>
-    </task>
-    <task id="LOCAL-00024" summary="New String algorithm - counting the occurrences of each String.">
-      <created>1647798477882</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1647798477882</updated>
     </task>
     <task id="LOCAL-00025" summary="Selection sort algorithm.">
       <created>1647798500637</created>
@@ -521,7 +498,35 @@
       <option name="project" value="LOCAL" />
       <updated>1649197562648</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Add and define .gitignore to repository.">
+      <created>1649197672421</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1649197672421</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Add and define .gitignore to repository.">
+      <created>1649197696661</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1649197696661</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Add and define .gitignore to repository.">
+      <created>1649197707038</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1649197707038</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Add and define .gitignore to repository.">
+      <created>1649197840719</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1649197840719</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
