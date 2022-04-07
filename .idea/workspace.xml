@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4d7f496-5c9c-4237-8155-f150f5658698" name="Default Changelist" comment="Add and define .gitignore to repository.">
+      <change afterPath="$PROJECT_DIR$/src/com/company/strings/ValidParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,20 +100,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager" selected="Application.RomanToInteger">
-    <configuration name="AlphabeticalOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.strings.AlphabeticalOrder" />
-      <module name="JavaAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MaxLengthOfConcatenatedString">
     <configuration name="CoutingStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.strings.CoutingStrings" />
       <module name="JavaAlgorithms" />
@@ -126,8 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplementStrStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.strings.ImplementStrStr" />
+    <configuration name="MaxLengthOfConcatenatedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.strings.MaxLengthOfConcatenatedString" />
       <module name="JavaAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -152,6 +140,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.strings.ValidParentheses" />
+      <module name="JavaAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="removeElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.datastructure.removeElement" />
       <module name="JavaAlgorithms" />
@@ -167,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxLengthOfConcatenatedString" />
+        <item itemvalue="Application.ValidParentheses" />
+        <item itemvalue="Application.CoutingStrings" />
         <item itemvalue="Application.RomanToInteger" />
         <item itemvalue="Application.removeElement" />
-        <item itemvalue="Application.CoutingStrings" />
-        <item itemvalue="Application.AlphabeticalOrder" />
-        <item itemvalue="Application.ImplementStrStr" />
       </list>
     </recent_temporary>
   </component>
@@ -183,13 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647043459145</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Find absolute max algorithm.">
-      <created>1647816140579</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1647816140579</updated>
     </task>
     <task id="LOCAL-00027" summary="Counting strings algorithm.">
       <created>1647816163091</created>
@@ -527,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649198176009</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Add and define .gitignore to repository.">
+      <created>1649198797718</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1649198797718</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
