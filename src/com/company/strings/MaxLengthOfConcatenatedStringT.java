@@ -2,11 +2,13 @@ package com.company.strings;
 
 /*
 Problem: Maximum Length of a Concatenated String - Letcode #1239
-Example: Input: arr = ["un","iq","ue"]
+Example: Input: A = ["un","iq","ue"]
          Output: 4
+
+Using: String[]
 */
 
-public class MaxLengthOfConcatenatedString {
+public class MaxLengthOfConcatenatedStringT {
     public static int maxLength(String[] A) {
         int[] result = new int[1];
         getMaxLength(0, A, "", result);
