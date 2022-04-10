@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4d7f496-5c9c-4237-8155-f150f5658698" name="Default Changelist" comment="New Letcode algorithm - baseball game using Stack.">
+    <list default="true" id="d4d7f496-5c9c-4237-8155-f150f5658698" name="Default Changelist" comment="Refactor one algorithm.">
+      <change afterPath="$PROJECT_DIR$/src/com/company/maths/RemoveDupFromSortedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/strings/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/strings/ValidParentheses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,22 +108,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager" selected="Application.ValidParentheses">
+  <component name="RunManager" selected="Application.RemoveDupFromSortedList">
     <configuration name="BaseballGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.datastructure.BaseballGame" />
-      <module name="JavaAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.datastructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CoutingStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.strings.CoutingStrings" />
       <module name="JavaAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -161,6 +148,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoveDupFromSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.datastructure.RemoveDupFromSortedList" />
+      <module name="JavaAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.datastructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.datastructure.ValidParentheses" />
       <module name="JavaAlgorithms" />
@@ -176,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveDupFromSortedList" />
         <item itemvalue="Application.ValidParentheses" />
         <item itemvalue="Application.BaseballGame" />
         <item itemvalue="Application.MaxLengthOfConcatenatedStringA" />
         <item itemvalue="Application.MaxLengthOfConcatenatedStringT" />
-        <item itemvalue="Application.CoutingStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -192,20 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647043459145</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Hashmap data structure.">
-      <created>1647895409716</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1647895409716</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Hashmap data structure.">
-      <created>1647895415996</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1647895415996</updated>
     </task>
     <task id="LOCAL-00033" summary="Hashmap data structure.">
       <created>1647927302661</created>
@@ -536,7 +522,21 @@
       <option name="project" value="LOCAL" />
       <updated>1649605448378</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="New Letcode algorithm - valid parentheses using Stack.">
+      <created>1649610408085</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1649610408085</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Refactor one algorithm.">
+      <created>1649610459600</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1649610459600</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -551,8 +551,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Hashmap data structure." />
-    <MESSAGE value="Sudoku game." />
     <MESSAGE value="Added README.md" />
     <MESSAGE value="New sorted algorithm -&gt; merge sort." />
     <MESSAGE value="Myltiply two inteegers." />
@@ -576,7 +574,9 @@
     <MESSAGE value="ADD README.md about HashMaps" />
     <MESSAGE value="New Letcode (#1239) algorithm - Maximum length of a concatenated String, using ArrayList&lt;String&gt; and String[]" />
     <MESSAGE value="New Letcode algorithm - baseball game using Stack." />
-    <option name="LAST_COMMIT_MESSAGE" value="New Letcode algorithm - baseball game using Stack." />
+    <MESSAGE value="New Letcode algorithm - valid parentheses using Stack." />
+    <MESSAGE value="Refactor one algorithm." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor one algorithm." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaAlgorithms$ReverseStringRecursion.ic" NAME="ReverseStringRecursion Coverage Results" MODIFIED="1649197073770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
