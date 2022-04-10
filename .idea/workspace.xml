@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4d7f496-5c9c-4237-8155-f150f5658698" name="Default Changelist" comment="Refactor one algorithm.">
-      <change afterPath="$PROJECT_DIR$/src/com/company/maths/RemoveDupFromSortedList.java" afterDir="false" />
+    <list default="true" id="d4d7f496-5c9c-4237-8155-f150f5658698" name="Default Changelist" comment="Refactor palindrome numbers algorithm - change package.">
+      <change afterPath="$PROJECT_DIR$/src/com/company/datastructure/SearchInsertPosition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +108,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager" selected="Application.RemoveDupFromSortedList">
+  <component name="RunManager" selected="Application.SearchInsertPosition">
     <configuration name="BaseballGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.datastructure.BaseballGame" />
       <module name="JavaAlgorithms" />
@@ -135,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxLengthOfConcatenatedStringT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.strings.MaxLengthOfConcatenatedStringT" />
+    <configuration name="RemoveDupFromSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.datastructure.RemoveDupFromSortedList" />
       <module name="JavaAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -148,8 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDupFromSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.datastructure.RemoveDupFromSortedList" />
+    <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.datastructure.SearchInsertPosition" />
       <module name="JavaAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -176,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchInsertPosition" />
         <item itemvalue="Application.RemoveDupFromSortedList" />
         <item itemvalue="Application.ValidParentheses" />
         <item itemvalue="Application.BaseballGame" />
         <item itemvalue="Application.MaxLengthOfConcatenatedStringA" />
-        <item itemvalue="Application.MaxLengthOfConcatenatedStringT" />
       </list>
     </recent_temporary>
   </component>
@@ -192,20 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647043459145</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Hashmap data structure.">
-      <created>1647927302661</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1647927302661</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Hashmap data structure.">
-      <created>1647927309248</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1647927309248</updated>
     </task>
     <task id="LOCAL-00035" summary="Hashmap data structure.">
       <created>1647927829970</created>
@@ -536,7 +522,21 @@
       <option name="project" value="LOCAL" />
       <updated>1649610459600</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Algorithm remove duplicates from sorted linked list.">
+      <created>1649617085504</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1649617085504</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Refactor palindrome numbers algorithm - change package.">
+      <created>1649617236742</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1649617236742</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -551,8 +551,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added README.md" />
-    <MESSAGE value="New sorted algorithm -&gt; merge sort." />
     <MESSAGE value="Myltiply two inteegers." />
     <MESSAGE value="Multiply two integers." />
     <MESSAGE value="Update multiplyTwoInt, and add new algorith - twoSum using lists and hashMap (Complexity: O(n^2) and O(n))." />
@@ -576,7 +574,9 @@
     <MESSAGE value="New Letcode algorithm - baseball game using Stack." />
     <MESSAGE value="New Letcode algorithm - valid parentheses using Stack." />
     <MESSAGE value="Refactor one algorithm." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor one algorithm." />
+    <MESSAGE value="Algorithm remove duplicates from sorted linked list." />
+    <MESSAGE value="Refactor palindrome numbers algorithm - change package." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor palindrome numbers algorithm - change package." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaAlgorithms$ReverseStringRecursion.ic" NAME="ReverseStringRecursion Coverage Results" MODIFIED="1649197073770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
