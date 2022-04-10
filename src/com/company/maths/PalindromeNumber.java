@@ -1,4 +1,4 @@
-package com.company.others;
+package com.company.maths;
 
 /*
 Problem: Palindrome Number: given an integer x/y, return true if x/y is palindrome integer.
