@@ -110,11 +110,11 @@
   </component>
   <component name="RunManager" selected="Application.ValidParentheses">
     <configuration name="BaseballGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.others.BaseballGame" />
+      <option name="MAIN_CLASS_NAME" value="com.company.datastructure.BaseballGame" />
       <module name="JavaAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.others.*" />
+          <option name="PATTERN" value="com.company.datastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
