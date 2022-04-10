@@ -1,4 +1,4 @@
-package com.company.datastructure;
+package com.company.maths;
 
 /*
 Problem: Search Insert Position

@@ -114,7 +114,7 @@
       <module name="JavaAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.datastructure.*" />
+          <option name="PATTERN" value="com.company.maths.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,7 +127,7 @@
       <module name="JavaAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.datastructure.*" />
+          <option name="PATTERN" value="com.company.maths.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,7 +140,7 @@
       <module name="JavaAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.datastructure.*" />
+          <option name="PATTERN" value="com.company.maths.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +149,11 @@
       </method>
     </configuration>
     <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.datastructure.SearchInsertPosition" />
+      <option name="MAIN_CLASS_NAME" value="com.company.maths.SearchInsertPosition" />
       <module name="JavaAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.datastructure.*" />
+          <option name="PATTERN" value="com.company.maths.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,7 +166,7 @@
       <module name="JavaAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.datastructure.*" />
+          <option name="PATTERN" value="com.company.maths.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
