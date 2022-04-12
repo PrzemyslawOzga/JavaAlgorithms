@@ -13,7 +13,7 @@ public class SubtractProductAndSum {
             int tmp = n % 10;
             sum += tmp;
             product *= tmp;
-            n = n/10;
+            n = n / 10;
         }
 
         return product - sum;
