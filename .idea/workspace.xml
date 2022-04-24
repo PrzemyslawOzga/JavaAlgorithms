@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4d7f496-5c9c-4237-8155-f150f5658698" name="Default Changelist" comment="New letcode algorithm - Number of 1 Bits.">
-      <change afterPath="$PROJECT_DIR$/src/com/company/maths/SubtractProductAndSum.java" afterDir="false" />
+    <list default="true" id="d4d7f496-5c9c-4237-8155-f150f5658698" name="Default Changelist" comment="New letcode algorithm - Subtract the Product and Sum of Digits of an Integer.">
+      <change afterPath="$PROJECT_DIR$/src/com/company/maths/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/datastructure/Dijkstra.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,13 +109,26 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager" selected="Application.SubtractProductAndSum">
+  <component name="RunManager" selected="Application.BinarySearch">
     <configuration name="AverageSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.others.AverageSalary" />
       <module name="JavaAlgorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.others.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.maths.BinarySearch" />
+      <module name="JavaAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.maths.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,19 +162,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.maths.SearchInsertPosition" />
-      <module name="JavaAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.maths.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SubtractProductAndSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.maths.SubtractProductAndSum" />
       <module name="JavaAlgorithms" />
@@ -176,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.SubtractProductAndSum" />
         <item itemvalue="Application.NumberOfOneBits" />
         <item itemvalue="Application.AverageSalary" />
         <item itemvalue="Application.CountOddNum" />
-        <item itemvalue="Application.SearchInsertPosition" />
       </list>
     </recent_temporary>
   </component>
@@ -192,20 +193,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647043459145</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Sudoku game.">
-      <created>1647929678263</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1647929678263</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Added README.md">
-      <created>1647975149887</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1647975149887</updated>
     </task>
     <task id="LOCAL-00042" summary="Added README.md">
       <created>1647975219200</created>
@@ -536,7 +523,21 @@
       <option name="project" value="LOCAL" />
       <updated>1649715447626</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="New letcode algorithm - Subtract the Product and Sum of Digits of an Integer.">
+      <created>1649798157612</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1649798157612</updated>
+    </task>
+    <task id="LOCAL-00090" summary="New letcode algorithm - Subtract the Product and Sum of Digits of an Integer.">
+      <created>1649798197802</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1649798197802</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -551,7 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Math algorithm using lists and hashMap - TwoSum (letcode)" />
     <MESSAGE value="Math algorithm using lists - remove duplicates from sorted array. Complexity: O(n)" />
     <MESSAGE value="Math algorithm using lists - remove element from array. Complexity: O(n)" />
     <MESSAGE value="Dijkstra's algorithm using priorityQueue." />
@@ -576,7 +576,8 @@
     <MESSAGE value="New letcode algorithm - count odd numbers in an interval range. Complexity: O(log n)" />
     <MESSAGE value="New letcode algorithm - verage Salary Excluding the Minimum and Maximum Salary. Complexity: O(n)." />
     <MESSAGE value="New letcode algorithm - Number of 1 Bits." />
-    <option name="LAST_COMMIT_MESSAGE" value="New letcode algorithm - Number of 1 Bits." />
+    <MESSAGE value="New letcode algorithm - Subtract the Product and Sum of Digits of an Integer." />
+    <option name="LAST_COMMIT_MESSAGE" value="New letcode algorithm - Subtract the Product and Sum of Digits of an Integer." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaAlgorithms$ReverseStringRecursion.ic" NAME="ReverseStringRecursion Coverage Results" MODIFIED="1649197073770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
