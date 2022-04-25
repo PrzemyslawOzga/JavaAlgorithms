@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4d7f496-5c9c-4237-8155-f150f5658698" name="Default Changelist" comment="New letcode algorithm #704 - binary search.">
-      <change afterPath="$PROJECT_DIR$/src/com/company/others/FirstBadVersion.java" afterDir="false" />
+    <list default="true" id="d4d7f496-5c9c-4237-8155-f150f5658698" name="Default Changelist" comment="New letcode algorithm #278 - first bad version.">
+      <change afterPath="$PROJECT_DIR$/src/com/company/datastructure/SquaresOfASortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +108,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.SquaresOfASortedArray">
     <configuration name="AverageSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.others.AverageSalary" />
       <module name="JavaAlgorithms" />
@@ -135,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountOddNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.maths.CountOddNum" />
+    <configuration name="NumberOfOneBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.others.NumberOfOneBits" />
       <module name="JavaAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.maths.*" />
+          <option name="PATTERN" value="com.company.others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfOneBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.others.NumberOfOneBits" />
+    <configuration name="SquaresOfASortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.datastructure.SquaresOfASortedArray" />
       <module name="JavaAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.others.*" />
+          <option name="PATTERN" value="com.company.datastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SquaresOfASortedArray" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.SubtractProductAndSum" />
         <item itemvalue="Application.NumberOfOneBits" />
         <item itemvalue="Application.AverageSalary" />
-        <item itemvalue="Application.CountOddNum" />
       </list>
     </recent_temporary>
   </component>
@@ -192,20 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647043459145</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Added README.md">
-      <created>1647975254748</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1647975254748</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Added README.md">
-      <created>1647975260070</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1647975260070</updated>
     </task>
     <task id="LOCAL-00045" summary="Added README.md">
       <created>1647975514408</created>
@@ -536,7 +522,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650826321578</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="New letcode algorithm #278 - first bad version.">
+      <created>1650827203456</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1650827203456</updated>
+    </task>
+    <task id="LOCAL-00093" summary="New letcode algorithm #278 - first bad version.">
+      <created>1650827291520</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1650827291520</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -551,7 +551,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Math algorithm using lists - remove element from array. Complexity: O(n)" />
     <MESSAGE value="Dijkstra's algorithm using priorityQueue." />
     <MESSAGE value="Implement strStr() - 28. algorithm from letCode" />
     <MESSAGE value="Implement strStr() - letCode algorithm." />
@@ -576,7 +575,8 @@
     <MESSAGE value="New letcode algorithm - Number of 1 Bits." />
     <MESSAGE value="New letcode algorithm - Subtract the Product and Sum of Digits of an Integer." />
     <MESSAGE value="New letcode algorithm #704 - binary search." />
-    <option name="LAST_COMMIT_MESSAGE" value="New letcode algorithm #704 - binary search." />
+    <MESSAGE value="New letcode algorithm #278 - first bad version." />
+    <option name="LAST_COMMIT_MESSAGE" value="New letcode algorithm #278 - first bad version." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaAlgorithms$ReverseStringRecursion.ic" NAME="ReverseStringRecursion Coverage Results" MODIFIED="1649197073770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
