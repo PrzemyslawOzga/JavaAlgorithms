@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4d7f496-5c9c-4237-8155-f150f5658698" name="Default Changelist" comment="New letcode algorithm #977 - squares of a sorted array">
-      <change afterPath="$PROJECT_DIR$/src/com/company/datastructure/RotateArray.java" afterDir="false" />
+    <list default="true" id="d4d7f496-5c9c-4237-8155-f150f5658698" name="Default Changelist" comment="New letcode algorithm - rotate array.">
+      <change afterPath="$PROJECT_DIR$/src/com/company/datastructure/MoveZeroes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +108,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager" selected="Application.RotateArray">
+  <component name="RunManager" selected="Application.MoveZeroes">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.maths.BinarySearch" />
       <module name="JavaAlgorithms" />
@@ -122,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfOneBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.others.NumberOfOneBits" />
+    <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.datastructure.MoveZeroes" />
       <module name="JavaAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.others.*" />
+          <option name="PATTERN" value="com.company.datastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MoveZeroes" />
         <item itemvalue="Application.RotateArray" />
         <item itemvalue="Application.SquaresOfASortedArray" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.SubtractProductAndSum" />
-        <item itemvalue="Application.NumberOfOneBits" />
       </list>
     </recent_temporary>
   </component>
@@ -192,13 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647043459145</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Added README.md">
-      <created>1647975560302</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1647975560302</updated>
     </task>
     <task id="LOCAL-00047" summary="New sorted algorithm -&gt; merge sort.">
       <created>1648251070803</created>
@@ -536,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650916147188</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="New letcode algorithm - rotate array.">
+      <created>1650918081364</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1650918081364</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -551,7 +551,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement strStr() - 28. algorithm from letCode" />
     <MESSAGE value="Implement strStr() - letCode algorithm." />
     <MESSAGE value="New Java algorithm - palindrome numbers (letcode)." />
     <MESSAGE value="New Java algorithm - roman to integer (letcode)." />
@@ -576,7 +575,8 @@
     <MESSAGE value="New letcode algorithm #704 - binary search." />
     <MESSAGE value="New letcode algorithm #278 - first bad version." />
     <MESSAGE value="New letcode algorithm #977 - squares of a sorted array" />
-    <option name="LAST_COMMIT_MESSAGE" value="New letcode algorithm #977 - squares of a sorted array" />
+    <MESSAGE value="New letcode algorithm - rotate array." />
+    <option name="LAST_COMMIT_MESSAGE" value="New letcode algorithm - rotate array." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaAlgorithms$ReverseStringRecursion.ic" NAME="ReverseStringRecursion Coverage Results" MODIFIED="1649197073770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
