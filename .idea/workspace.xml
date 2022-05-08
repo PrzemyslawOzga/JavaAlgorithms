@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4d7f496-5c9c-4237-8155-f150f5658698" name="Default Changelist" comment="Nim Game #292.">
+    <list default="true" id="d4d7f496-5c9c-4237-8155-f150f5658698" name="Default Changelist" comment="Refactoring interview task.">
+      <change afterPath="$PROJECT_DIR$/src/com/company/others/NumOfStepsToReduceNumToZero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/maths/MultiplyTwoInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/maths/MultiplyTwoInt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +108,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager" selected="Application.MultiplyTwoInt">
+  <component name="RunManager" selected="Application.NumOfStepsToReduceNumToZero">
     <configuration name="MultiplyTwoInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.maths.MultiplyTwoInt" />
       <module name="JavaAlgorithms" />
@@ -124,6 +124,19 @@
     </configuration>
     <configuration name="NimGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.others.NimGame" />
+      <module name="JavaAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.others.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumOfStepsToReduceNumToZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.others.NumOfStepsToReduceNumToZero" />
       <module name="JavaAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -161,26 +174,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.datastructure.TwoSumII" />
-      <module name="JavaAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.datastructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumOfStepsToReduceNumToZero" />
         <item itemvalue="Application.MultiplyTwoInt" />
         <item itemvalue="Application.NimGame" />
         <item itemvalue="Application.RemoveDupFromSortedList1" />
         <item itemvalue="Application.RemoveDuplicates" />
-        <item itemvalue="Application.TwoSumII" />
       </list>
     </recent_temporary>
   </component>
@@ -192,13 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647043459145</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Update file name.">
-      <created>1648683444379</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1648683444379</updated>
     </task>
     <task id="LOCAL-00054" summary="Math algorithm using lists and hashMap - TwoSum (letcode)">
       <created>1648683520718</created>
@@ -536,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652038714040</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="Refactoring interview task.">
+      <created>1652040547851</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1652040547851</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -551,7 +551,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="AlphabeticalOrder algorithm." />
     <MESSAGE value="Add and define .gitignore to repository." />
     <MESSAGE value="New letcode algorithm - Maximum length of a concatenated String using String[]." />
     <MESSAGE value="ADD README.md about HashMaps" />
@@ -576,7 +575,8 @@
     <MESSAGE value="Code refactoring." />
     <MESSAGE value="Remove Duplicates from Sorted List #83." />
     <MESSAGE value="Nim Game #292." />
-    <option name="LAST_COMMIT_MESSAGE" value="Nim Game #292." />
+    <MESSAGE value="Refactoring interview task." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring interview task." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaAlgorithms$ReverseStringRecursion.ic" NAME="ReverseStringRecursion Coverage Results" MODIFIED="1649197073770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
