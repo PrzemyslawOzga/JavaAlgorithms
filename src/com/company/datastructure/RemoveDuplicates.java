@@ -6,7 +6,7 @@ Example: Input: nums = [1,1,2]
          Output: 2, nums = [1,2,_]
 */
 
-public class removeDuplicates {
+public class RemoveDuplicates {
 
     // Complexity: O(n)
     public static int removeDuplicates(int[] nums) {

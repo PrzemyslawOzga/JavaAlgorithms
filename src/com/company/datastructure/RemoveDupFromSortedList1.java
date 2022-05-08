@@ -8,7 +8,7 @@ Return the linked list sorted as well.
 
 import java.util.LinkedList;
 
-public class RemoveDupFromSortedList {
+public class RemoveDupFromSortedList1 {
 
     public static LinkedList deleteDuplicates(LinkedList<Integer> head) {
         if (head.isEmpty()) return null;
