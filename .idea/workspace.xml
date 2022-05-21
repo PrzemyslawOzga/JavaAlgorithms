@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4d7f496-5c9c-4237-8155-f150f5658698" name="Default Changelist" comment="Number of Steps to Reduce a Number to Zero. Leet code algorithm no. 1342.">
-      <change afterPath="$PROJECT_DIR$/src/com/company/maths/SquaresOfSortedArray.java" afterDir="false" />
+    <list default="true" id="d4d7f496-5c9c-4237-8155-f150f5658698" name="Default Changelist" comment="Refactor code and add new algorithm - squares of a sorted array in two option of implementation.">
+      <change afterPath="$PROJECT_DIR$/src/com/company/strings/ReverseStringChar2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/datastructure/MoveZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/datastructure/MoveZeroes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/datastructure/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/datastructure/RemoveElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/strings/ReverseStringChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/strings/ReverseStringChar1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +109,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager" selected="Application.SquaresOfSortedArray2">
+  <component name="RunManager" selected="Application.ReverseStringChar2">
     <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.datastructure.MoveZeroes" />
       <module name="JavaAlgorithms" />
@@ -150,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.datastructure.RemoveElement" />
+    <configuration name="ReverseStringChar2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.strings.ReverseStringChar2" />
       <module name="JavaAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.maths.*" />
+          <option name="PATTERN" value="com.company.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseStringChar2" />
         <item itemvalue="Application.SquaresOfSortedArray2" />
         <item itemvalue="Application.MoveZeroes" />
         <item itemvalue="Application.RemoveDupFromSortedList1" />
         <item itemvalue="Application.RemoveDuplicates" />
-        <item itemvalue="Application.RemoveElement" />
       </list>
     </recent_temporary>
   </component>
@@ -194,13 +193,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647043459145</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Math algorithm using lists - remove duplicates from sorted array. Complexity: O(n)">
-      <created>1648764234617</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1648764234617</updated>
     </task>
     <task id="LOCAL-00056" summary="Math algorithm using lists - remove element from array. Complexity: O(n)">
       <created>1648767992734</created>
@@ -538,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652043863463</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="Refactor code and add new algorithm - squares of a sorted array in two option of implementation.">
+      <created>1653134723785</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1653134723786</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -553,7 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="New letcode algorithm - Maximum length of a concatenated String using String[]." />
     <MESSAGE value="ADD README.md about HashMaps" />
     <MESSAGE value="New Letcode (#1239) algorithm - Maximum length of a concatenated String, using ArrayList&lt;String&gt; and String[]" />
     <MESSAGE value="New Letcode algorithm - baseball game using Stack." />
@@ -578,7 +576,8 @@
     <MESSAGE value="Nim Game #292." />
     <MESSAGE value="Refactoring interview task." />
     <MESSAGE value="Number of Steps to Reduce a Number to Zero. Leet code algorithm no. 1342." />
-    <option name="LAST_COMMIT_MESSAGE" value="Number of Steps to Reduce a Number to Zero. Leet code algorithm no. 1342." />
+    <MESSAGE value="Refactor code and add new algorithm - squares of a sorted array in two option of implementation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor code and add new algorithm - squares of a sorted array in two option of implementation." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaAlgorithms$ReverseStringRecursion.ic" NAME="ReverseStringRecursion Coverage Results" MODIFIED="1649197073770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

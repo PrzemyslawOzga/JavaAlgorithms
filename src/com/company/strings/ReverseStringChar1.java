@@ -10,7 +10,7 @@ package com.company.strings;
 
 import java.util.Scanner;
 
-public class ReverseStringChar {
+public class ReverseStringChar1 {
 
     public static void reverseString (String stringToReverse) {
         char[] ch = stringToReverse.toCharArray();
