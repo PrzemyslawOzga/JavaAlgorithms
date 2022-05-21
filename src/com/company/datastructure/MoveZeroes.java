@@ -7,7 +7,7 @@ order of the non-zero elements. Note that you must do thin in-place without maki
 */
 
 public class MoveZeroes {
-    public void moveZeroes(int[] nums) {
+    public static void moveZeroes(int[] nums) {
         int n = -1;
         for (int i = 0; i < nums.length; i++) {
             int tmp = nums[i];
@@ -22,5 +22,8 @@ public class MoveZeroes {
     public static void main(String[] args) {
         int[] nums1 = {0,1,0,3,12};
         int[] nums2 = {0};
-    }
+
+        moveZeroes(nums1);
+        moveZeroes(nums2);
+     }
 }

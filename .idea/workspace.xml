@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4d7f496-5c9c-4237-8155-f150f5658698" name="Default Changelist" comment="Refactoring interview task.">
-      <change afterPath="$PROJECT_DIR$/src/com/company/others/NumOfStepsToReduceNumToZero.java" afterDir="false" />
+    <list default="true" id="d4d7f496-5c9c-4237-8155-f150f5658698" name="Default Changelist" comment="Number of Steps to Reduce a Number to Zero. Leet code algorithm no. 1342.">
+      <change afterPath="$PROJECT_DIR$/src/com/company/maths/SquaresOfSortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/datastructure/MoveZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/datastructure/MoveZeroes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/datastructure/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/datastructure/RemoveElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,39 +110,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager" selected="Application.NumOfStepsToReduceNumToZero">
-    <configuration name="MultiplyTwoInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.maths.MultiplyTwoInt" />
+  <component name="RunManager" selected="Application.SquaresOfSortedArray2">
+    <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.datastructure.MoveZeroes" />
       <module name="JavaAlgorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.maths.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NimGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.others.NimGame" />
-      <module name="JavaAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.others.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumOfStepsToReduceNumToZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.others.NumOfStepsToReduceNumToZero" />
-      <module name="JavaAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,7 +129,7 @@
       <module name="JavaAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.datastructure.*" />
+          <option name="PATTERN" value="com.company.maths.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,7 +142,33 @@
       <module name="JavaAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.datastructure.*" />
+          <option name="PATTERN" value="com.company.maths.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.datastructure.RemoveElement" />
+      <module name="JavaAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.maths.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SquaresOfSortedArray2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.maths.SquaresOfSortedArray2" />
+      <module name="JavaAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.maths.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NumOfStepsToReduceNumToZero" />
-        <item itemvalue="Application.MultiplyTwoInt" />
-        <item itemvalue="Application.NimGame" />
+        <item itemvalue="Application.SquaresOfSortedArray2" />
+        <item itemvalue="Application.MoveZeroes" />
         <item itemvalue="Application.RemoveDupFromSortedList1" />
         <item itemvalue="Application.RemoveDuplicates" />
+        <item itemvalue="Application.RemoveElement" />
       </list>
     </recent_temporary>
   </component>
@@ -192,13 +194,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647043459145</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Math algorithm using lists and hashMap - TwoSum (letcode)">
-      <created>1648683520718</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1648683520718</updated>
     </task>
     <task id="LOCAL-00055" summary="Math algorithm using lists - remove duplicates from sorted array. Complexity: O(n)">
       <created>1648764234617</created>
@@ -536,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652040547851</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="Number of Steps to Reduce a Number to Zero. Leet code algorithm no. 1342.">
+      <created>1652043863463</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1652043863463</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -551,7 +553,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add and define .gitignore to repository." />
     <MESSAGE value="New letcode algorithm - Maximum length of a concatenated String using String[]." />
     <MESSAGE value="ADD README.md about HashMaps" />
     <MESSAGE value="New Letcode (#1239) algorithm - Maximum length of a concatenated String, using ArrayList&lt;String&gt; and String[]" />
@@ -576,7 +577,8 @@
     <MESSAGE value="Remove Duplicates from Sorted List #83." />
     <MESSAGE value="Nim Game #292." />
     <MESSAGE value="Refactoring interview task." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring interview task." />
+    <MESSAGE value="Number of Steps to Reduce a Number to Zero. Leet code algorithm no. 1342." />
+    <option name="LAST_COMMIT_MESSAGE" value="Number of Steps to Reduce a Number to Zero. Leet code algorithm no. 1342." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaAlgorithms$ReverseStringRecursion.ic" NAME="ReverseStringRecursion Coverage Results" MODIFIED="1649197073770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

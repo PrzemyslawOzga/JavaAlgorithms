@@ -1,4 +1,4 @@
-package com.company.datastructure;
+package com.company.maths;
 
 /*
 Problem: Squares of a sorted array
@@ -8,7 +8,7 @@ squares of each number sorted in non-decreasing order.
 
 import java.util.Arrays;
 
-public class SquaresOfASortedArray {
+public class SquaresOfSortedArray1 {
     public static int[] sortedSquares(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
             int square = nums[i] * nums[i];
