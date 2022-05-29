@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4d7f496-5c9c-4237-8155-f150f5658698" name="Default Changelist" comment="New Leetcode algorithm #557 Reverse Words in a String III">
-      <change afterPath="$PROJECT_DIR$/src/com/company/datastructure/MidOfTheLinkedList/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/datastructure/MidOfTheLinkedList/MiddleOfTheLinkedList.java" afterDir="false" />
+    <list default="true" id="d4d7f496-5c9c-4237-8155-f150f5658698" name="Default Changelist" comment="New leetcode algorithm #876 -&gt; middle of the linked list.">
+      <change afterPath="$PROJECT_DIR$/src/com/company/datastructure/RemoveNthNodeFromEndOfList/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/datastructure/RemoveNthNodeFromEndOfList/RemoveNthNodeFromEndOfList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -193,13 +193,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647043459145</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Dijkstra's algorithm using priorityQueue.">
-      <created>1649024370773</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1649024370773</updated>
     </task>
     <task id="LOCAL-00059" summary="Implement strStr() - 28. algorithm from letCode">
       <created>1649024433057</created>
@@ -537,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653135937931</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="New leetcode algorithm #876 -&gt; middle of the linked list.">
+      <created>1653863368401</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1653863368402</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -552,7 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="New Letcode algorithm - baseball game using Stack." />
     <MESSAGE value="New Letcode algorithm - valid parentheses using Stack." />
     <MESSAGE value="Refactor one algorithm." />
     <MESSAGE value="Algorithm remove duplicates from sorted linked list." />
@@ -577,7 +576,8 @@
     <MESSAGE value="Refactor code and add new algorithm - squares of a sorted array in two option of implementation." />
     <MESSAGE value="Refactor code." />
     <MESSAGE value="New Leetcode algorithm #557 Reverse Words in a String III" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Leetcode algorithm #557 Reverse Words in a String III" />
+    <MESSAGE value="New leetcode algorithm #876 -&gt; middle of the linked list." />
+    <option name="LAST_COMMIT_MESSAGE" value="New leetcode algorithm #876 -&gt; middle of the linked list." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaAlgorithms$ReverseStringRecursion.ic" NAME="ReverseStringRecursion Coverage Results" MODIFIED="1649197073770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
