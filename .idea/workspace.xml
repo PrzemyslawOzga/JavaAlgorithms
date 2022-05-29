@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4d7f496-5c9c-4237-8155-f150f5658698" name="Default Changelist" comment="Refactor code and add new algorithm - squares of a sorted array in two option of implementation.">
-      <change afterPath="$PROJECT_DIR$/src/com/company/strings/ReverseStringChar2.java" afterDir="false" />
+    <list default="true" id="d4d7f496-5c9c-4237-8155-f150f5658698" name="Default Changelist" comment="New Leetcode algorithm #557 Reverse Words in a String III">
+      <change afterPath="$PROJECT_DIR$/src/com/company/datastructure/MidOfTheLinkedList/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/datastructure/MidOfTheLinkedList/MiddleOfTheLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/strings/ReverseStringChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/strings/ReverseStringChar1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,20 +193,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647043459145</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Math algorithm using lists - remove element from array. Complexity: O(n)">
-      <created>1648767992734</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1648767992735</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Dijkstra's algorithm using priorityQueue.">
-      <created>1649023881685</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1649023881685</updated>
     </task>
     <task id="LOCAL-00058" summary="Dijkstra's algorithm using priorityQueue.">
       <created>1649024370773</created>
@@ -537,7 +523,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653134723786</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="Refactor code.">
+      <created>1653135710673</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1653135710673</updated>
+    </task>
+    <task id="LOCAL-00106" summary="New Leetcode algorithm #557 Reverse Words in a String III">
+      <created>1653135937931</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1653135937931</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -552,8 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ADD README.md about HashMaps" />
-    <MESSAGE value="New Letcode (#1239) algorithm - Maximum length of a concatenated String, using ArrayList&lt;String&gt; and String[]" />
     <MESSAGE value="New Letcode algorithm - baseball game using Stack." />
     <MESSAGE value="New Letcode algorithm - valid parentheses using Stack." />
     <MESSAGE value="Refactor one algorithm." />
@@ -577,7 +575,9 @@
     <MESSAGE value="Refactoring interview task." />
     <MESSAGE value="Number of Steps to Reduce a Number to Zero. Leet code algorithm no. 1342." />
     <MESSAGE value="Refactor code and add new algorithm - squares of a sorted array in two option of implementation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor code and add new algorithm - squares of a sorted array in two option of implementation." />
+    <MESSAGE value="Refactor code." />
+    <MESSAGE value="New Leetcode algorithm #557 Reverse Words in a String III" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Leetcode algorithm #557 Reverse Words in a String III" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaAlgorithms$ReverseStringRecursion.ic" NAME="ReverseStringRecursion Coverage Results" MODIFIED="1649197073770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
